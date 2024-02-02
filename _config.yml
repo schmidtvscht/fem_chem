@@ -1,6 +1,6 @@
 # In _config.yml
-title: My sample book
-author: The Jupyter Book Community
+title: FEM_CHEM
+author: J. Schmidt
 logo: logo.png
 execute:
   execute_notebooks: force
