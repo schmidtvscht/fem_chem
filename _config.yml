@@ -6,3 +6,5 @@ execute:
   execute_notebooks: force
 
 theme: jekyll-theme-minimal
+
+markdown: GFM
