@@ -1,5 +1,10 @@
-# In _toc.yml
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
 format: jb-book
 root: index
-chapters:
-- file: markdown
+title: Numerical tours of Computational Mechanics using FEniCSx
+parts:
+- caption: Introduction
+  chapters:
+  - file: markdown.md
