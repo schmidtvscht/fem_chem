@@ -4,3 +4,5 @@ author: J. Schmidt
 logo: logo.png
 execute:
   execute_notebooks: force
+
+theme: jekyll-theme-minimal
