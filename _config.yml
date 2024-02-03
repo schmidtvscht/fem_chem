@@ -3,7 +3,7 @@
 
 title: Computational Mechanics Numerical Tours with FEniCSx
 author: Jeremy Bleyer
-logo: logo.png
+logo: images/logo.png
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
@@ -12,7 +12,7 @@ execute:
 
   # Set timeout for any example to 20 minutes
   timeout: 1800
-
+  
 # Define the name of the latex output file for PDF builds
 latex:
   latex_documents:
@@ -24,18 +24,18 @@ bibtex_bibfiles:
 
 # Information about where the book exists on the web
 repository:
-  url: https://schmidtvscht.github.io/fem_chem/  # Online location of your book
+  url: https://github.com/bleyerj/comet-fenicsx  # Online location of your book
   branch: main  # Which branch of the repository should be used when creating links (optional)
 
 # Add GitHub buttons to your book
 # See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
-# html:
+# html:  
 #   extra_footer: |
 #     <div>
 #         This webpage is an adaptation of <a href=https://comet-fenics.readthedocs.io>The COMET tutorial</a> and
 #         is distributed under the terms of the <a href=http://creativecommons.org/licenses/by-sa/4.0/>Creative Commons Attribution-ShareAlike 4.0 International License  </a>
 #         which permits use, duplication, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source,
-#         provide a link to the Creative Commons license and indicate if changes were made.  If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
+#         provide a link to the Creative Commons license and indicate if changes were made.  If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original. 
 #     </div>
 
 exclude_patterns: [README.md]
@@ -53,7 +53,7 @@ sphinx:
       show_navbar_depth: 2
       home_page_in_toc: true
       show_toc_level: 2
-      repository_url: https://schmidtvscht.github.io/fem_chem/
+      repository_url: https://github.com/bleyerj/comet-fenicsx
       use_edit_page_button: true
       use_repository_button: true
       use_download_button: false
@@ -69,3 +69,4 @@ parse:
     - "replacements"
     - "smartquotes"
     - "substitution"
+
